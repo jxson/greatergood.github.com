@@ -1,0 +1,50 @@
+body {
+  width: 728px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.125;
+}
+
+#logo {
+  display: block;
+  font-size: 4em;
+  margin: 0.5625em 0 1.125em 0;
+  line-height: 1.125em;
+  color: black;
+  text-decoration: none;
+}
+
+#in-short {
+  width: 100%;
+  font-family: 'Geometric Slabserif 712', Georgia, serif;
+  font-style: italic;
+  font-size: 1.5em;
+  line-height: 1.2;
+  margin: 1.2em 0;
+  border-bottom: 1px solid black;
+  padding-bottom: 1.2em;
+}
+
+p {
+  width: 40em;
+  line-height: 1.4;
+  word-spacing: 0.125em;
+}
+
+abbr { letter-spacing: 0.1em; }
+
+.kern { letter-spacing: -0.1em }
+
+#logo, h1, h2, h3, h4, h5, h6 {
+  margin: 1.125em 0;
+  font-family: "Geometric Slabserif 712";
+}
+
+/* h1 minus h6 = x divided by 5 = difference in heading font sizes */
+h1 { font-size: 2em; }
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.6em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1em; }
