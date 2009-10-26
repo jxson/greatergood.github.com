@@ -5,16 +5,16 @@ a:hover, a:active, a:visited { outline: none; }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  line-height: 1.125;
-  margin: 1.125em 0;
+  line-height: 1;
+  margin: 0;
   padding: 0;
   font-size: 100%;
 }
 
 /* Paragraphs */
 p {
-  line-height: 1.125;
-  margin: 1.125em 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* Lists */

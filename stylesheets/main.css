@@ -1,3 +1,11 @@
-body {
-
+#logo {
+  display: block;
+  margin: 63px 0;
+  text-decoration: none;
+  height: 63px; /* approx to account for a 'Geometric Slabserif 712' @ font-size: 4em; + line-hight: 1.125; */
+  background: transparent url('/images/logo.png') 0 14px no-repeat;
+  overflow: hidden;
+  text-indent: -3000em;
 }
+
+#nerd-olympics { display: none; }

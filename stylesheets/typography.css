@@ -1,33 +1,44 @@
 body {
-  width: 728px;
   margin: 0 auto;
+  padding: 0 1.125em; /* padding incase veiwport gets squished */
   font-size: 14px;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.125;
-}
-
-#logo {
-  display: block;
-  font-size: 4em;
-  margin: 0.5625em 0 1.125em 0;
-  line-height: 1.125em;
-  color: black;
-  text-decoration: none;
+  max-width: 58em; /* gives p tags a col width of about 40 ems max, short for books - perfect for web */
+  color: #000;
 }
 
 #in-short {
-  width: 100%;
-  font-family: 'Geometric Slabserif 712', Georgia, serif;
+  font-family: 'Geometric Slabserif 712', Palatino, 'Times New Roman', serif;
   font-style: italic;
   font-size: 1.5em;
   line-height: 1.2;
   margin: 1.2em 0;
-  border-bottom: 1px solid black;
-  padding-bottom: 1.2em;
+  padding: 0;
 }
 
-p {
-  width: 40em;
+#a-while-back {
+  background: transparent url('/images/a-while-back.png') 0 0 no-repeat;
+}
+
+#greater-good-was {
+  background: transparent url('/images/greater-good-was.png') 0 0 no-repeat;
+}
+
+#greater-good-is {
+  background: transparent url('/images/greater-good-is.png') 0 0 no-repeat;
+}
+
+hr {
+  font-size: 2em;
+  margin: 1.125em 0;
+  border: 3px solid black;
+}
+
+p, ul {
+  line-height: 1.125;
+  margin: 1.125em 0;
+  padding-left: 247px; /* widest faux heading in 'Geometric Slabserif 712' @ font-size: 2em; + margin-right: 1.125em; */
   line-height: 1.4;
   word-spacing: 0.125em;
 }
@@ -36,9 +47,15 @@ abbr { letter-spacing: 0.1em; }
 
 .kern { letter-spacing: -0.1em }
 
-#logo, h1, h2, h3, h4, h5, h6 {
-  margin: 1.125em 0;
-  font-family: "Geometric Slabserif 712";
+h1, h2, h3, h4, h5, h6 {
+/*  margin: 1.125em 0;
+*/  font-family: "";
+}
+
+h1 { /* replace these with images */
+/*  margin-top: 0;
+*/  float: left;
+margin-right: 1.125em;
 }
 
 /* h1 minus h6 = x divided by 5 = difference in heading font sizes */
