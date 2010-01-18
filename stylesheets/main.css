@@ -59,6 +59,9 @@ p.greater-good-was { margin-top: 2.89em; }
 h2.greater-good-is { margin-top: ; }
 p.greater-good-is { margin-top: 2.8em; }
 
+ul, li { list-style: disc; }
+li { margin-left: 1em; }
+
 p#nerd-olympics {
   padding: 0;
   color: #d1d1d1;
