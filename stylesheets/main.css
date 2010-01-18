@@ -3,11 +3,11 @@ body {
   padding: 0 1.125em; /* padding incase veiwport gets squished */
   font-size: 14.22px; /* gives a nice round row height of ~16px */
   font-family: Helvetica, Arial, sans-serif;
-  line-height: 1.125;
-  max-width: 58em; /* gives p tags a col width of about 72 chars max */
+  line-height: 15.9975px;
+  max-width: 832px; /* gives p tags a col width of about 72 chars max */
   color: #000;
   /* the baseline */
-  /*background: #fff url("/images/baseline.png") top left;*/
+  background: #fff url("/images/baseline.png") top left;
 }
 
 #logo {
@@ -22,15 +22,15 @@ body {
 #in-short {
   font-family: "kulturista-web-1","kulturista-web-2", serif;
   font-style: italic;
-  font-size: 1.125em;
-  line-height: 1.175;
-  margin:  0 0 1.125em 0;
+  font-size: 16px;
+  line-height: 19px;
+  margin:  0 0 16px 0;
   padding: 0;
 }
 
 hr {
   background: url('/images/bar.png') center left repeat-x;
-  height: 1.47em;
+  height: 21px;
   border: none;
 }
 
@@ -38,23 +38,22 @@ h2 {
   float: left;
   font-family: "kulturista-web-1","kulturista-web-2", serif;
   font-weight: bold;
-  font-size: 2.8em;
-  line-height: 1.125;
-  margin: 0 15.9975px 0 0;
+  font-size: 39px;
+  line-height: 44px;
+  margin: 0 16px 0 0;
 }
 
 p, ul {
-  line-height: 1.125;
-  margin: 1.47em 0;
-  padding-left: 331.9975px; /* widest heading + margin-right: 15.9975px; */
-  line-height: 1.4;
+  margin: 20.9034px 0;
+  padding-left: 340px; /* widest heading + margin-right: 15.9975px; */
+  line-height: 19.908px;
   word-spacing: 0.125em;
 }
 
-h2.a-while-back { margin-top: 15px; }
-p.a-while-back { margin-top: 2.94em; }
+h2.a-while-back { margin-top: 18px; }
+p.a-while-back { margin-top: 44px; }
 
-h2.greater-good-was { margin-top: ; }
+h2.greater-good-was { margin-top: 0px; }
 p.greater-good-was { margin-top: 2.89em; }
 
 h2.greater-good-is { margin-top: ; }
