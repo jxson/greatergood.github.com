@@ -7,7 +7,7 @@ body {
   max-width: 832px; /* gives p tags a col width of about 72 chars max */
   color: #000;
   /* the baseline */
-  background: #fff url("/images/baseline.png") top left;
+  /*background: #fff url("/images/baseline.png") top left;*/
 }
 
 #logo {
