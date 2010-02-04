@@ -7,18 +7,20 @@ body {
   max-width: 832px; /* gives p tags a col width of about 72 chars max */
   color: #000;
   /* the baseline */
-  /*background: #fff url("/images/baseline.png") top left;*/
+  /* background: #fff url("/images/baseline.png") top left; */
 }
 
 #logo {
   display: block;
   text-decoration: none;
-  height: 181px; /* its not cheating, I swear! */
-  background: url('/images/logo.png') center left no-repeat;
+  height: 82px;
+  margin-top: 50px;
+  background: url('/images/logo.png') left top no-repeat;
   overflow: hidden;
   text-indent: -3000em;
 }
 
+/* 
 #in-short {
   font-family: "kulturista-web-1","kulturista-web-2", serif;
   font-style: italic;
@@ -26,6 +28,22 @@ body {
   line-height: 19px;
   margin:  0 0 16px 0;
   padding: 0;
+  background: url('/images/in-short.png') left top no-repeat;
+} 
+*/
+
+#in-short {
+  font-family: "kulturista-web-1","kulturista-web-2", serif;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 19px;
+  width: 830px;
+  height: 38px;
+  margin: 47px 0 18px 0;
+  padding: 0;
+  text-indent: -3000em;
+  overflow: hidden;
+  background: url('/images/in-short.png') left top no-repeat;
 }
 
 hr {
@@ -41,6 +59,8 @@ h2 {
   font-size: 39px;
   line-height: 44px;
   margin: 0 16px 0 0;
+  text-indent: -3000em;
+  overflow: hidden;
 }
 
 p, ul {
@@ -50,13 +70,35 @@ p, ul {
   word-spacing: 0.125em;
 }
 
-h2.a-while-back { margin-top: 18px; }
+/*h2.a-while-back { margin-top: 18px; } */
+h2.a-while-back {
+  width: 281px;
+  height: 31px;
+  margin-top: 20px;
+  background: url('/images/a-while-back.png') left top no-repeat;
+}
+
 p.a-while-back { margin-top: 44px; }
 
-h2.greater-good-was { margin-top: 0px; }
+/* h2.greater-good-was { margin-top: 0px; } */
+h2.greater-good-was {
+  width: 310px;
+  height: 40px;
+  margin-top: 2px;
+  background: url('/images/greater-good-was.png') left top no-repeat;
+}
+
 p.greater-good-was { margin-top: 2.89em; }
 
-h2.greater-good-is { margin-top: ; }
+
+/*h2.greater-good-is { margin-top: ; } */
+h2.greater-good-is {
+  width: 266px;
+  height: 40px;
+  margin-top: 2px;
+  background: url('/images/greater-good-is.png') left top no-repeat;
+}
+
 p.greater-good-is { margin-top: 2.8em; }
 
 ul, li { list-style: disc; }
